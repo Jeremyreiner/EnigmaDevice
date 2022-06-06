@@ -1,6 +1,7 @@
 using EnigmaApi.Infrastructure.SQL;
 using EnigmaApi.Interfaces;
 using EnigmaApi.Repositories;
+using EnigmaApi.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IDeviceRepository, DeviceRepository>();
 builder.Services.AddScoped<IRotorRepository, RotorRepository>();
+builder.Services.AddSingleton<DatabaseService>();
 
 //build connection to database
 builder.Services.AddDbContext<ApplicationDbContext>(options => 

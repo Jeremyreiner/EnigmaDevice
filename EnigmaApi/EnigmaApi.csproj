@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\EnigmaSimulator\Enigma.Common\Enigma.Common.csproj" />
+    <ProjectReference Include="..\Enigma.Common\Enigma.Common.csproj" />
   </ItemGroup>
 
 </Project>

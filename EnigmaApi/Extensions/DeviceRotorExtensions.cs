@@ -6,7 +6,7 @@ namespace EnigmaApi.Extensions
 {
     public static class DeviceRotorExtensions
     {
-        public static DeviceEntity ToEntity(this DeviceModel model)
+        public static DeviceEntity? ToEntity(this DeviceModel model)
         {
             return new DeviceEntity
             {

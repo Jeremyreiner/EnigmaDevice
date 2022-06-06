@@ -15,7 +15,5 @@ namespace Enigma.Common.Entities
         public string? Description { get; set; }
 
         public virtual ICollection<DeviceRotorEntity>? DeviceRotors { get; set; }//nav propetry in table
-
-
     }
 }

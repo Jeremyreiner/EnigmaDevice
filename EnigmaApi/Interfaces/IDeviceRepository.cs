@@ -7,12 +7,12 @@ namespace EnigmaApi.Interfaces
     {
         Task<IEnumerable<DeviceEntity>> GetAllAsync();
 
-        Task<DeviceEntity> GetDeviceByName(string name);
+        Task<DeviceEntity?> GetDeviceByName(string name);
 
         Task PostNewDevice(DeviceEntity device);
 
         Task DeleteDevice(string name);
 
-        Task<ActionResult<DeviceEntity>> UpdateDeviceByName(DeviceEntity device);
+        Task<DeviceEntity> UpdateDeviceByName(DeviceEntity device);
     }
 }
