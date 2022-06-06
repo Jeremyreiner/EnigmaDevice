@@ -10,6 +10,7 @@ using EnigmaApi.Interfaces;
 
 namespace EnigmaApi.Services
 {
+
     public class DatabaseService
     {
         readonly IServiceScopeFactory _ServiceScopeFactory;
