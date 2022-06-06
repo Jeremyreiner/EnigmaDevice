@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnigmaSimulator", "EnigmaSimulator\EnigmaSimulator.csproj", "{4540669E-3FA1-46E0-87AB-D733E05615CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnigmaMachine.Tests", "EnigmaMachine.Tests\EnigmaMachine.Tests.csproj", "{B7216926-45B4-432A-B3F6-470CBDF7018B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enigma.Configurations", "Configurations\Enigma.Configurations.csproj", "{4160DA5F-E680-4246-92F1-E618F4DAADB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enigma.Common", "Enigma.Common\Enigma.Common.csproj", "{BBA7E15A-731D-4708-A0F6-591F28B43490}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActualEnigma", "ActualEnigma\ActualEnigma.csproj", "{109A1127-8F87-4DD1-A579-121EB09A5493}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnigmaApi", "EnigmaApi\EnigmaApi.csproj", "{2F4A20C0-3FE6-4300-AFE7-298C2752997B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4540669E-3FA1-46E0-87AB-D733E05615CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4540669E-3FA1-46E0-87AB-D733E05615CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4540669E-3FA1-46E0-87AB-D733E05615CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4540669E-3FA1-46E0-87AB-D733E05615CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7216926-45B4-432A-B3F6-470CBDF7018B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7216926-45B4-432A-B3F6-470CBDF7018B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7216926-45B4-432A-B3F6-470CBDF7018B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7216926-45B4-432A-B3F6-470CBDF7018B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4160DA5F-E680-4246-92F1-E618F4DAADB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4160DA5F-E680-4246-92F1-E618F4DAADB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4160DA5F-E680-4246-92F1-E618F4DAADB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4160DA5F-E680-4246-92F1-E618F4DAADB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA7E15A-731D-4708-A0F6-591F28B43490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA7E15A-731D-4708-A0F6-591F28B43490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA7E15A-731D-4708-A0F6-591F28B43490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA7E15A-731D-4708-A0F6-591F28B43490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109A1127-8F87-4DD1-A579-121EB09A5493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109A1127-8F87-4DD1-A579-121EB09A5493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109A1127-8F87-4DD1-A579-121EB09A5493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109A1127-8F87-4DD1-A579-121EB09A5493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4A20C0-3FE6-4300-AFE7-298C2752997B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4A20C0-3FE6-4300-AFE7-298C2752997B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4A20C0-3FE6-4300-AFE7-298C2752997B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4A20C0-3FE6-4300-AFE7-298C2752997B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F6D25DF-0D02-404A-8CAF-5904CB8BEB5F}
+	EndGlobalSection
+EndGlobal
